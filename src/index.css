@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: athletics;
+  src: url(../public/font/Athletics\ Regular.otf);
+}
+
+.athletics {
+  font-family: athletics;
+}
+
+:root {
+  color: black;
+  font-family: athletics;
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: athletics;
+  src: url(../public/font//Athletics\ ExtraBold.otf);
+}
+
+.athleticsBold {
+  font-family: athletics;
+}
+
+:root {
+  color: black;
+  font-family: athleticsBold;
+
+}
